@@ -164,7 +164,7 @@ pip install -r requirements.txt
 
 # Environment Variables
 
-Create a `.env` file using `.env.example`.
+Create a `.env` file.
 
 ```env
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2

@@ -6,9 +6,9 @@ class AnswerGenerator:
     def __init__(self):
 
         self.llm = ChatOpenAI(
-            model=settings.LLM_MODEL,
-            api_key=settings.LLM_API_KEY,
-            base_url="https://api.groq.com/openai/v1"
+            model = settings.LLM_MODEL,
+            api_key = settings.LLM_API_KEY,
+            base_url = "https://api.groq.com/openai/v1"
         )
     
     def invoke(self, prompt:str):
